@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:13720f701dabc4d15155e168914fa015edc4205faf5c278cb00a17fe29c48959
-size 738
+# data.zip for ATSLA
+
+Supported DLC and Mods:
+| DLCs | Mods
+---|---
+Arkansas | Promods Canada v133
+Nebraska
+Kansas
+Oklahoma
+Texas
+Wyoming
+Montana
+Colorado
+Idaho
+New Mexico
+Oregon
+Utah
+Washington
+Arizona
+Nevada
+---
+Install by rename and replace data.zip in app/Plugins/Map
+
+Generated with https://github.com/JimJokes/maps/tree/modSupport on wsl Ubuntu
+
+Commands:
+```
+npx parser -g "/mnt/disk/SteamLibrary/steamapps/common/American Truck Simulator" -m "/mnt/disk/Users/user/Documents/American Truck Simulator/mod" -o "/home/user/maps/data"
+npx generator graph -m usa -i "/home/user/maps/data" -o "packages/apps/demo/public" #Essential, won't work without graph.json
+```
+---
+v2025.3.23 Integrated by PiggyWu981
