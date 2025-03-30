@@ -1,3 +1,6 @@
+# OUTDATED, NO LONGER UPDATE
+# USE OFFICIAL ETS2LA DATA INSTEAD
+---
 # data.zip for ATSLA
 
 Supported DLC and Mods:
