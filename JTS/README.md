@@ -11,4 +11,4 @@ npx parser -g "/mnt/e/SteamLibrary/steamapps/common/Euro Truck Simulator 2" -m "
 npx generator graph -m europe -i "/home/piggy/maps/datajp" -o "/home/piggy/maps/datajp" #Essential, won't work without graph.json
 ```
 ---
-v2025.3.23 Integrated by PiggyWu981
+v1.53.1 Integrated by PiggyWu981
